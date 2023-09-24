@@ -1,0 +1,105 @@
+/* Estilos Globais */
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap');
+body {
+    background-color: #d8c3a5;
+    margin: 0;
+    padding: 0;
+    color: #4d362f;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    }  
+
+/* Estilos do Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d8c3a5;
+    border-bottom: 5px solid #8c6241;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 4.0em;
+        text-align: center; /* Alinha o texto à esquerda */
+        font-family: 'Phudu', cursive;
+        color: #000000;
+        }
+    
+
+
+/* Estilos da Navegação */
+nav {
+    background-color: #8c6241;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Phudu', cursive;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    font-family: 'Phudu', cursive;
+    font-size: 1.4em;
+}
+
+nav a:hover {
+    background-color: #c09c73;
+}
+
+
+
+/* Estilos do Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8c6241;
+    border-top: 5px solid #8c6241;
+    margin-top: auto; /* Empurra o rodapé para a parte inferior */
+    font-family: 'Phudu', cursive;
+    color: #000000;
+}
+.container {
+    align-items: flex-start; /* Alinha os itens verticalmente ao topo */
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    background-color: #d8c3a5;
+  }
+  
+  .conteudo {
+    flex-grow: 1; /* Faz com que o conteúdo cresça para preencher o espaço disponível */
+    margin-left: 20px; /* Espaço entre a imagem e o conteúdo */
+    font-family: 'Phudu', cursive;
+    color: #000000;
+    margin-top: -10px; /* Margem superior de 10 pixels */
+    margin-right: 20px; /* Margem direita de 20 pixels */
+    margin-bottom: 10px; /* Margem inferior de 10 pixels */
+    margin-left: -5px; /* Margem esquerda de 2 pixels */
+  }
+  .image-description {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 16px; /* Define o tamanho da letra para a descrição */
+        font-style: italic; /* Adiciona estilo de itálico à descrição */
+        margin-top: 10px; /* Margem superior de 10 pixels */
+        margin-right: -20px; /* Margem direita de 20 pixels */
+        margin-bottom: 120px; /* Margem inferior de 10 pixels */
+        margin-left: 10; /* Margem esquerda de 2 pixels */
+        color: #000000;
+  }
+  
+
